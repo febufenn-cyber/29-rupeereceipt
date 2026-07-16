@@ -1,0 +1,3 @@
+# CLAUDE.md
+
+This repo is product #29 of Febin's 50-SaaS challenge. Nothing is built yet — docs/ is the source of truth. Read docs/LLD.md then docs/PLAN.md and execute tasks in order with TDD. Stack conventions + the shipped reference implementation live in the private repo febufenn-cyber/50-saas (contract-reviewer/) — same Worker+Supabase+credits patterns, but the extraction call is Anthropic-only (vision) here, not provider-switchable — do not add a DeepSeek fallback for the vision step, it's text-only. WhatsApp ingest is gated on Meta app approval; web upload ships independently. These are verified decisions — do not re-litigate without evidence.
